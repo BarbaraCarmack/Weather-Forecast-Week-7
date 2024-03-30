@@ -2,6 +2,9 @@ body  {
   background-color: rgb(174, 216, 241);
   font-family: "Roboto", sans-serif;
 }
+a  {
+  color: darkblue;
+}
 h1  {
   color: darkblue;
 }
@@ -12,5 +15,48 @@ h1  {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 30px 50px darkblue; 
-
 }
+
+.search-form-input  {
+  background-color: rgb(238, 237, 237);
+  border: none;
+  border-radius: 6px;
+  width: 75%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.search-form-button  {
+  background-color: darkblue;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  border-radius:  6px;
+  font-size: 16px;
+}
+main  {
+  padding: 30px 0;
+}
+.weather-app-data  {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-app-city  {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.weather-app-details  {
+  font-size: 16px;
+  line-height:20px; 
+  color: rgba(231, 83, 162, 0.7);
+}
+.weather-app-details strong  {
+  color:  rgba(231, 83, 162, 0.7); 
+  font-weight: 500;
+  line-height:  24px;
+}
+footer  {
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+} 
