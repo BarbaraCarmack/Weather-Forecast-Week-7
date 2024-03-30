@@ -1,0 +1,16 @@
+body  {
+  background-color: rgb(174, 216, 241);
+  font-family: "Roboto", sans-serif;
+}
+h1  {
+  color: darkblue;
+}
+.weather-app  {
+  background-color: white;
+  max-width: 500px;
+  margin: 45px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px darkblue; 
+
+}
