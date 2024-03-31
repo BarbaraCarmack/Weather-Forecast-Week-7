@@ -48,13 +48,36 @@ main  {
 .weather-app-details  {
   font-size: 16px;
   line-height:20px; 
-  color: rgba(231, 83, 162, 0.7);
+  color: rgba(67, 141, 231, 0.7);
 }
 .weather-app-details strong  {
   color:  rgba(231, 83, 162, 0.7); 
   font-weight: 500;
   line-height:  24px;
 }
+.weather-app-temperature-container  {
+  display: flex;   
+}
+
+.weather-app-temperature  {
+  font-size:  88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.weather-app-icon  {
+  font-size: 44px;
+  margin-top: 22px;
+   
+}
+</div>
+
+.weather-app-unit   {
+  margin-top: 6px;
+  font-size: 28px;
+}
+
+
+
 footer  {
   padding: 30px 0 0 0;
   text-align: center;
